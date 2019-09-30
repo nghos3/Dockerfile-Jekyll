@@ -2,7 +2,7 @@
 # so this is a bit redundnat with Dockerfile in this repo
 # but it lets us host two images, mostly the same, on Hub
 
-FROM ruby:latest
+FROM ruby:alpine
 
 RUN apk add --no-cache build-base gcc bash cmake
 
